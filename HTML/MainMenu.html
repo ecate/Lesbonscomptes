@@ -1,0 +1,38 @@
+<!--
+Main page of application
+-->
+<!DOCTYPE html> 
+<html> 
+	<head> 
+	<title>Les bons comptes font les bons amis</title> 
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0b2/jquery.mobile-1.0b2.min.css" />
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.2.min.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/mobile/1.0b2/jquery.mobile-1.0b2.min.js"></script>
+</head> 
+<body> 
+
+<div data-role="page" data-theme="b">
+
+	<div data-role="header">
+            <a href="MainMenu.html" data-icon="home" data-iconpos="notext" data-direction="reverse" class="ui-btn-left jqm-home">Home</a>
+	    <h1>Main Menu</h1>
+        </div><!-- /header -->
+
+	<div data-role="content">	
+               <ul data-role="listview" data-theme="b" data-inset="true">
+                   <li> <a href="Expenses_main.html"> <img src="../images/star.png" alt="Expenses" class="ui-li-icon"> Expenses </a> </li>
+                   <li><a href="/"> <img src="../images/user.png" alt="Contributors" class="ui-li-icon">Contributors</a></li>
+                   <li data-icon="gear"><a href="/"><!--<img src="../images/calculator.png" alt="Dispatch" class="ui-li-icon">-->Dispatch</a></li>
+            </ul>
+	</div><!-- /content -->
+
+	<div data-role="footer">
+		<h4>Les bons comptes</h4>
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!--
+Main page of application
+-->
+<!DOCTYPE html> 
+<html> 
+	<head> 
+	<title>Les bons comptes font les bons amis</title> 
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0b2/jquery.mobile-1.0b2.min.css" />
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.2.min.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/mobile/1.0b2/jquery.mobile-1.0b2.min.js"></script>
+</head> 
+<body> 
+
+<div data-role="page" data-theme="b">
+
+	<div data-role="header">
+            <a href="MainMenu.html" data-icon="home" data-iconpos="notext" data-direction="reverse" class="ui-btn-left jqm-home">Home</a>
+	    <h1>Expenses</h1>
+        </div><!-- /header -->
+
+	<div data-role="content">
+            <a href="index.html" data-role="button" data-inline="true" data-icon="plus">Add an expense</a>
+            <p>List of expenses:</p>   
+            <ul data-role="listview" data-theme="c" data-inset="true">
+                    <li><a href="Expenses_edit.html"> Peage autoroute Aix </a><a href="#" data-icon="delete">Delete item</a></li>
+                    <li><a href="/"> Repas midi autoroute aller</a><a href="#" data-icon="delete">Delete item</a></li>
+                    <li><a href="/"> Champagne </a><a href="#" data-icon="delete">Delete item</a></li>
+            </ul>
+	</div><!-- /content -->
+
+	<div data-role="footer">
+		<h4>Les bons comptes</h4>
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+</body>
+</html>
